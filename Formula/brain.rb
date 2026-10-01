@@ -1,26 +1,26 @@
 class Brain < Formula
   desc "Local and shared project-knowledge service for coding agents"
   homepage "https://github.com/karmahacker/brain"
-  version "0.2.19"
+  version "0.2.20"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.19/brain-darwin-arm64.tar.gz"
-      sha256 "49ae899caa40037b23c172cb868958a3c7605f01e2a8b7df0736e207fe194083"
+      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.20/brain-darwin-arm64.tar.gz"
+      sha256 "fd5b65c02a40a06d1612a568ed83edd1915485a9f2730026337f5a68d9ade5ec"
     else
-      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.19/brain-darwin-x64.tar.gz"
-      sha256 "5acac04e7b7bc3a8d5b3a7c5fbcfc8f48e65bd95cc2db83907b4c2e5b8b4e386"
+      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.20/brain-darwin-x64.tar.gz"
+      sha256 "57049c8093d0ce70976e3b038d190997306e15439428dbd291174f7414e9ab60"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.19/brain-linux-arm64.tar.gz"
-      sha256 "82dd9e32a8277a4dc504851be270e8dff7ae6d7393f40fd067fc09d87a765567"
+      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.20/brain-linux-arm64.tar.gz"
+      sha256 "7527506ba48d7d125bd17777e39f5fad5e8ca1e89e790a068076ab83a0e3eacd"
     else
-      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.19/brain-linux-x64.tar.gz"
-      sha256 "5da63b1469530be22391830371412391433ac0996de1e2ce3d3c16ea544abef7"
+      url "https://github.com/karmahacker/homebrew-tap/releases/download/v0.2.20/brain-linux-x64.tar.gz"
+      sha256 "ff537d6090a9ddb8adead030b37caffaf2ab7aa38ed95514da1329d358ab3415"
     end
   end
 
